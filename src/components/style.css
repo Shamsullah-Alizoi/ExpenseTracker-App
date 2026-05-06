@@ -1,30 +1,9 @@
 
-        .underline-input {
-          border: none;
-          border-bottom: 2px solid #ced4da;
-          border-radius: 0;
-          box-shadow: none;
-          padding-left: 0;
-          background: transparent;
-        }
 
-        .underline-input:focus {
-          border-bottom: 2px solid #0d6efd;
-          box-shadow: none;
-          outline: none;
-        }
-
-        .underline-input:focus::placeholder {
-          color: transparent;
-        }
-   .catagory {
-    width: 30vw;
-   }
-
-   .buttons {
-        width: 30vw;
-        height: 7vh;
-        position: relative;
-        right: 40px;
-        
-   }
+.sub-container {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  height: 100vh;
+  margin-top: 8rem;
+}

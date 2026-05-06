@@ -1,0 +1,44 @@
+.action-btn {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+/* ICON SIZE */
+.action-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* EDIT BUTTON */
+.edit-btn {
+  background-color: #e7f1ff;
+  color: #0d6efd;
+}
+
+.edit-btn:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background-color: #fdecea;
+  color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* HOVER EFFECT */
+.action-btn:hover {
+  transform: scale(1.08);
+}
